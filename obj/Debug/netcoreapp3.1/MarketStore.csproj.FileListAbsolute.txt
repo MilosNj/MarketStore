@@ -1,0 +1,11 @@
+C:\Users\Milos\Documents\GitHub\MarketStore\bin\Debug\netcoreapp3.1\MarketStore.exe
+C:\Users\Milos\Documents\GitHub\MarketStore\bin\Debug\netcoreapp3.1\MarketStore.deps.json
+C:\Users\Milos\Documents\GitHub\MarketStore\bin\Debug\netcoreapp3.1\MarketStore.runtimeconfig.json
+C:\Users\Milos\Documents\GitHub\MarketStore\bin\Debug\netcoreapp3.1\MarketStore.runtimeconfig.dev.json
+C:\Users\Milos\Documents\GitHub\MarketStore\bin\Debug\netcoreapp3.1\MarketStore.dll
+C:\Users\Milos\Documents\GitHub\MarketStore\bin\Debug\netcoreapp3.1\MarketStore.pdb
+C:\Users\Milos\Documents\GitHub\MarketStore\obj\Debug\netcoreapp3.1\MarketStore.csprojAssemblyReference.cache
+C:\Users\Milos\Documents\GitHub\MarketStore\obj\Debug\netcoreapp3.1\MarketStore.AssemblyInfoInputs.cache
+C:\Users\Milos\Documents\GitHub\MarketStore\obj\Debug\netcoreapp3.1\MarketStore.AssemblyInfo.cs
+C:\Users\Milos\Documents\GitHub\MarketStore\obj\Debug\netcoreapp3.1\MarketStore.dll
+C:\Users\Milos\Documents\GitHub\MarketStore\obj\Debug\netcoreapp3.1\MarketStore.pdb
