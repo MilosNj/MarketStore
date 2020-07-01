@@ -8,7 +8,10 @@ namespace MarketStore
         protected float turnover;
         protected float discountRate;
         protected float purchaseValue;
-        abstract public float CalculateDiscount(float valueOfPurchase);
+        public float CalculateDiscount(float valueOfPurchase)
+        {
+            return valueOfPurchase * NewDiscountRate();
+        }
         abstract public float NewDiscountRate();
         public float TotalPurchaseValue()
         {
@@ -53,11 +56,6 @@ namespace MarketStore
 
             return discountRate;
         }
-
-        override public float CalculateDiscount(float valueOfPurchase)
-        {
-            return valueOfPurchase * NewDiscountRate();
-        }
     }
 
     class Silver : DiscountCard
@@ -78,11 +76,6 @@ namespace MarketStore
             }
 
             return discountRate;
-        }
-
-        override public float CalculateDiscount(float valueOfPurchase)
-        {
-            return valueOfPurchase * NewDiscountRate();
         }
     }
 
@@ -133,18 +126,13 @@ namespace MarketStore
 
             return discountRate;
         }
-
-        override public float CalculateDiscount(float valueOfPurchase)
-        {
-            return valueOfPurchase * NewDiscountRate();
-        }
     }
 
     class Program
     {
         static void Main(string[] args)
         {
-            Bronze bronzeCard = new Bronze("Owner 2", 0, 150);
+            Bronze bronzeCard = new Bronze("Owner 1", 0, 150);
             float bronzePurchaseValue = bronzeCard.GetPurchaseValue();
 
             Console.WriteLine("Bronze:");
